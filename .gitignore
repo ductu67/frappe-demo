@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Frappe Bench sites data (sensitive configs & uploads)
+sites/*/site_config.json
+sites/*/private/
+sites/*/public/files/
+sites/*/locks/
+sites/*/indexes/
+sites/*/touched_tables.json
+sites/assets/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Process IDs
+config/pids/
+*.pid
+*.rdb
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter / IPython
+.ipython/
+*.ipynb_checkpoints/
+ipython.log
+
+# Junie (JetBrains AI plans)
+.junie/
