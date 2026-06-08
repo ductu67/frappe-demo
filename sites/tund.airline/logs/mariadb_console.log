@@ -1,0 +1,6 @@
+_HiStOrY_V2_
+select\040*\040from\040tabRide_Booking_Item
+;
+select\040*\040from\040tabRide\040Booking\040Item;
+select\040*\040from\040'tabRide\040Booking\040Item';
+select\040*\040from\040`tabRide\040Booking\040Item`;

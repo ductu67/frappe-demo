@@ -1,0 +1,38 @@
+2026-06-07 16:52:52,669 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `amended_from` varchar(140)
+2026-06-07 16:52:53,192 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD INDEX `amended_from_index`(`amended_from`)
+2026-06-07 16:54:44,020 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `airplane` varchar(140)
+2026-06-07 16:56:51,131 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `date_of_departure` date, ADD COLUMN `time_of_departure` time(6), ADD COLUMN `duration` decimal(21,9), ADD COLUMN `status` varchar(140)
+2026-06-07 16:57:01,819 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` MODIFY `status` varchar(140) DEFAULT 'Scheduled'
+2026-06-07 17:04:05,936 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `source_airport` varchar(140)
+2026-06-07 17:04:32,120 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `destination_airport` varchar(140)
+2026-06-07 17:05:58,835 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `source_airport_code` varchar(140)
+2026-06-07 17:06:59,666 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `destination_airport_code` varchar(140)
+2026-06-07 17:06:59,666 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `destination_airport_code` varchar(140)
+2026-06-07 17:10:48,858 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `data_kkmz` varchar(140)
+2026-06-07 17:15:30,540 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `seat` varchar(140)
+2026-06-07 19:08:29,449 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Ticket` ADD COLUMN `seat` varchar(140)
+2026-06-07 22:37:01,131 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `route` varchar(140)
+2026-06-07 22:37:50,752 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane Flight` ADD COLUMN `is_published` tinyint(4) NOT NULL DEFAULT 0
+2026-06-08 13:18:03,716 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` ADD COLUMN `summary` varchar(140)
+2026-06-08 13:28:26,583 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` ADD COLUMN `my_python_code` longtext
+2026-06-08 16:21:48,254 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` ADD COLUMN `audit_completed` tinyint(4) NOT NULL DEFAULT 0
+2026-06-08 16:22:29,642 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `audit_completed` tinyint(4) NOT NULL DEFAULT 1

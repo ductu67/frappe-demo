@@ -1,0 +1,21 @@
+VehicleID,Make,Model,Year,LicensePlate,Color
+101,Mercedes,S-Class,2022,ABC123,Black
+102,BMW,7 Series,2021,XYZ789,White
+103,Audi,A8,2023,DEF456,Silver
+104,Lexus,LS 500,2022,GHI789,Blue
+105,Cadillac,CT6,2021,JKL012,Red
+106,Range Rover,Velar,2023,MNO345,Gray
+107,Infiniti,Q70,2022,PQR678,Gold
+108,Lincoln,Continental,2021,STU901,Brown
+109,Volvo,S90,2023,VWX234,Green
+110,Tesla,Model S,2022,YZABCD,Pearl
+111,Jaguar,XJ,2021,EFG567,Burgundy
+112,Porsche,Panamera,2023,HIJ890,Orange
+113,Bentley,Continental GT,2022,KLM123,Yellow
+114,Toyota,Land Cruiser,2021,NOP456,Dark Blue
+115,Chevrolet,Impala,2023,QRS789,Light Blue
+116,Ford,Lincoln MKZ,2022,TUV012,Champagne
+117,Hyundai,Genesis G90,2021,WXY345,Dark Green
+118,Kia,K900,2023,ZAB678,Magenta
+119,Subaru,Legacy,2022,BCD901,Teal
+120,Maserati,Quattroporte,2021,CDE234,Beige
