@@ -1,4 +1,5 @@
 {
+ "allow_tests": true,
  "backup_encryption_key": "tHZP_UZurZRwnfpllZBbzJV8NIR72jly_Sueb2kW2xU=",
  "db_name": "_06331518cd853ea1",
  "db_password": "5HzoqNPsC32IRiuF",

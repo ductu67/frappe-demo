@@ -36,3 +36,29 @@ ALTER TABLE `tabVehicle` ADD COLUMN `my_python_code` longtext
 ALTER TABLE `tabVehicle` ADD COLUMN `audit_completed` tinyint(4) NOT NULL DEFAULT 0
 2026-06-08 16:22:29,642 WARNING database DDL Query made to DB:
 ALTER TABLE `tabVehicle` MODIFY `audit_completed` tinyint(4) NOT NULL DEFAULT 1
+2026-06-09 15:18:14,534 WARNING database DDL Query made to DB:
+create table `tabVehicle Type` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2026-06-09 15:18:53,309 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle Type` ADD COLUMN `desciption` text
+2026-06-09 15:20:40,673 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` ADD COLUMN `type` varchar(140)
+2026-06-09 15:20:40,673 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` ADD COLUMN `type` varchar(140)
+2026-06-09 16:12:01,907 WARNING database DDL Query made to DB:
+ALTER TABLE `tabRide Booking` ADD COLUMN `workflow_state` varchar(140)
