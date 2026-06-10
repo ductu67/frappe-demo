@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "skills": {
+    "frappe-ui": {
+      "source": "frappe/frappe-ui",
+      "ref": "main",
+      "sourceType": "github",
+      "skillPath": "skills/frappe-ui/SKILL.md",
+      "computedHash": "f09687d7393e87b406d400507948b01c8e23be1be199081203ed38cee2cc595e"
+    }
+  }
+}
