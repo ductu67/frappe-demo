@@ -62,3 +62,5 @@ ALTER TABLE `tabVehicle` ADD COLUMN `type` varchar(140)
 ALTER TABLE `tabVehicle` ADD COLUMN `type` varchar(140)
 2026-06-09 16:12:01,907 WARNING database DDL Query made to DB:
 ALTER TABLE `tabRide Booking` ADD COLUMN `workflow_state` varchar(140)
+2026-06-10 12:57:38,757 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirline` ADD COLUMN `website` varchar(140)

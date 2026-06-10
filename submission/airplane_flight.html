@@ -1,0 +1,31 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+{# Sử dụng Frappe API trong Jinja để lấy thông tin Hãng bay qua liên kết bảng Airplane #}
+{% set airline = frappe.db.get_value("Airplane", doc.airplane, "airline") %}
+<div class="container mt-4">
+    <div class="card p-4 shadow-sm">
+        <h2>Chuyến bay: {{ doc.name }}</h2>
+        <h4 class="text-primary">{{ airline }}</h4>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <p><strong>Điểm đi:</strong> {{ doc.source_airport }}</p>
+                <p><strong>Điểm đến:</strong> {{ doc.destination_airport }}</p>
+                <p><strong>Thời lượng:</strong> {{ frappe.utils.format_duration(doc.duration) }}</p>
+            </div>
+            <div class="col-md-6">
+                <p><strong>Ngày khởi hành:</strong> {{ frappe.utils.format_date(doc.date_of_departure, "d MMMM, YYYY") }}</p>
+                <p><strong>Giờ cất cánh:</strong> {{ doc.time_of_departure }}</p>
+            </div>
+        </div>
+
+		<div class="mt-4">
+			<a href="/book-flight-ticket-web-form/new?flight={{ doc.name }}&flight_price=150000" class="btn btn-success btn-lg">
+				Book Flight
+			</a>
+		</div>
+    </div>
+</div>
+{% endblock %}
+

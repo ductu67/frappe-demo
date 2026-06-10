@@ -1,0 +1,10 @@
+<div class="list-item-row" style="border-bottom: 1px solid #ddd; padding: 15px 0;">
+	<h4>{{ (doc.title or doc.name) |e }}</h4>
+	<P> {{ doc.source_airport }} -> {{ doc.destination_airport }}</P>
+	<p class="text-muted">
+		<strong>Giờ đi:</strong> {{ doc.time_of_departure }} |
+        <strong>Ngày:</strong> {{ frappe.utils.format_date(doc.date_of_departure, "d MMMM, YYYY") }} <br>
+        <strong>Thời gian bay:</strong> {{ frappe.utils.format_duration(doc.duration) }}
+	</p>
+	<a href="/{{ doc.route }}">View Flight</a>
+</div>
