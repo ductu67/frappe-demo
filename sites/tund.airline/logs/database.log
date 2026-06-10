@@ -64,3 +64,7 @@ ALTER TABLE `tabVehicle` ADD COLUMN `type` varchar(140)
 ALTER TABLE `tabRide Booking` ADD COLUMN `workflow_state` varchar(140)
 2026-06-10 12:57:38,757 WARNING database DDL Query made to DB:
 ALTER TABLE `tabAirline` ADD COLUMN `website` varchar(140)
+2026-06-10 13:52:10,559 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirline` ADD COLUMN `logo` text
+2026-06-10 23:38:06,016 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAirplane` ADD COLUMN `initial_audit_completed` tinyint(4) NOT NULL DEFAULT 0

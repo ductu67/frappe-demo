@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "frappe-charts": "^1.6.2"
+    "frappe-charts": "^1.6.2",
+    "frappe-ui": "^0.1.278"
   }
 }

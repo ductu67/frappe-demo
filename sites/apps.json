@@ -27,5 +27,15 @@
         "required": [],
         "idx": 3,
         "version": "0.0.1"
+    },
+    "doppio": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "426dc49d5ceb451237848386208ec9da194e5d8f",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "0.0.1"
     }
 }

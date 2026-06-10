@@ -54,6 +54,8 @@ ipython.log
 
 # Junie (JetBrains AI plans)
 .junie/
+.claude/
+.agents/
 
 # Frappe apps (managed by bench, not tracked here)
 apps/
