@@ -6,5 +6,6 @@
  "db_type": "mariadb",
  "db_user": "_06331518cd853ea1",
  "developer_mode": 1,
+ "encryption_key": "ISaX1egBa4eCu11K8egIgZwCxxb2nDY3cXVP_l7UJHY=",
  "maintenance_mode": 0
 }
